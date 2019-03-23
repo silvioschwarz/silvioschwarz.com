@@ -1,0 +1,84 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Silvio
+email: admin@silvioschwarz.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Master student of Geophysics | machine learning | psychoanalysis. Let's make life better on this planet!
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://www.silvioschwarz.com" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: slvschwrz
+#github_username:  silvioschwarz
+
+author:
+  name:           'Silvio Schwarz'
+  url:            https://twitter.com/slvschwrz
+
+paginate:         5
+
+# Custom vars
+
+github:		  
+  repo:           https://github.com/silvioschwarz
+
+insta:		https://instagram.com/slv.schwrz
+twitter:	https://twitter.com/slvschwrz
+art:		http://instagram.com/amethodtothismadness
+music:		http://instagram.com/neros.torch
+cv:		https://silvioschwarz.github.io/CV/
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Silvio</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-03-23T09:09:14+01:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name>Silvio Schwarz</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>First Post</title>
+   <link href="http://localhost:4000/2019/03/23/first-post/"/>
+   <updated>2019-03-23T00:00:00+01:00</updated>
+   <id>http://localhost:4000/2019/03/23/first-post</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
