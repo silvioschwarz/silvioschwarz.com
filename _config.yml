@@ -13,25 +13,25 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Silvio
+title: Silvio Schwarz
 email: admin@silvioschwarz.com
 description: >- # this means to ignore newlines until "baseurl:"
   Master student of Geophysics | machine learning | psychoanalysis. Let's make life better on this planet!
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.silvioschwarz.com" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: slvschwrz
-#github_username:  silvioschwarz
+baseurl: / # the subpath of your site, e.g. /blog
+url: http://wwwsilvioschwarz.com # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: slvschwrz
+github_username:  silvioschwarz
 
 author:
   name:           'Silvio Schwarz'
-  url:            https://twitter.com/slvschwrz
+  url:             www.silvioschwarz.com
 
 paginate:         5
 
 # Custom vars
 
-github:		  
-  repo:           https://github.com/silvioschwarz
+github:		
+  repo:         https://github.com/silvioschwarz
 
 insta:		https://instagram.com/slv.schwrz
 twitter:	https://twitter.com/slvschwrz
