@@ -16,11 +16,12 @@
 title: Silvio Schwarz
 email: admin@silvioschwarz.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Master student of Geophysics | machine learning | psychoanalysis. Let's make life better on this planet!
+    Geophysics <br> Machine Learning <bt >Psychoanalysis
 baseurl: / # the subpath of your site, e.g. /blog
-url: http://wwwsilvioschwarz.com # the base hostname & protocol for your site, e.g. http://example.com
+url: http://www.silvioschwarz.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: slvschwrz
 github_username:  silvioschwarz
+
 
 author:
   name:           'Silvio Schwarz'
@@ -38,6 +39,12 @@ twitter:	https://twitter.com/slvschwrz
 art:		http://instagram.com/amethodtothismadness
 music:		http://instagram.com/neros.torch
 cv:		https://silvioschwarz.github.io/CV/
+paypal:		https://www.paypal.com/paypalme/silvioschwarz89
+nature:		https://www.silvioschwarz.com/selvaggio
+psychoBlog:	https://www.silvioschwarz.com/psychoanalythis
+nerostorch:	https://www.silvioschwarz.com/nerostorch
+amethodtomadness:	 https://www.silvioschwarz.com/amethodtomadness
+
 
 # Build settings
 markdown: kramdown

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Silvio Schwarz</title>
- <link href="http://wwwsilvioschwarz.com/atom.xml" rel="self"/>
- <link href="http://wwwsilvioschwarz.com/"/>
- <updated>2019-03-24T15:16:43+01:00</updated>
- <id>http://wwwsilvioschwarz.com</id>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2019-04-06T09:11:12+02:00</updated>
+ <id>http://localhost:4000</id>
  <author>
    <name>Silvio Schwarz</name>
    <email></email>
@@ -13,11 +13,67 @@
 
  
  <entry>
-   <title>First Post</title>
-   <link href="http://wwwsilvioschwarz.com/2019/03/23/first-post/"/>
-   <updated>2019-03-23T00:00:00+01:00</updated>
-   <id>http://wwwsilvioschwarz.com/2019/03/23/first-post</id>
+   <title>First</title>
+   <link href="http://localhost:4000/selvaggio/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+02:00</updated>
+   <id>http://localhost:4000/selvaggio/2019/04/06/first</id>
    <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First</title>
+   <link href="http://localhost:4000/nerostorch/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+02:00</updated>
+   <id>http://localhost:4000/nerostorch/2019/04/06/first</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>First</title>
+   <link href="http://localhost:4000/amethodtomadness/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+02:00</updated>
+   <id>http://localhost:4000/amethodtomadness/2019/04/06/first</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Warum sollte man eigentlich keine Angst vor mir haben?</title>
+   <link href="http://localhost:4000/psychoanalythis/2019/03/11/WhyNotAfraid/"/>
+   <updated>2019-03-11T00:00:00+01:00</updated>
+   <id>http://localhost:4000/psychoanalythis/2019/03/11/WhyNotAfraid</id>
+   <content type="html">&lt;h1 id=&quot;warum-sollte-man-eigentlich-keine-angst-vor-mir-haben&quot;&gt;Warum sollte man eigentlich keine Angst vor mir haben?&lt;/h1&gt;
+&lt;p&gt;Ich gehöre zur Spezies homo sapiens.
+Bei allen Maßstäben, die uns heute vorliegen, das erfolgreichste und gefährlichste Raubtier des Planeten Erde, wahrscheinlich unseres Sonnensystems.&lt;/p&gt;
+
+&lt;p&gt;Ich bin
+weiß
+männlich
+heterosexuell
+zwischen 15-45 Jahren&lt;/p&gt;
+
+&lt;p&gt;welches die gefährlichste Subkategorie des Menschen ist, was Straftaten wie Raub, Körperverletzung, Nötigung, Beleidigung, Vergewaltigung, Mord, Totschlag, Erpressung, Diebstahl, staatsgefährdende Terroranschlag, Amoklauf, Serienmord und Genozid ist.&lt;/p&gt;
+
+&lt;p&gt;Hier fehlen noch konkrete statistische Zahlen.&lt;/p&gt;
+
+&lt;p&gt;Dazu noch eine psychische Erkrankung, die mindestens die Schwelle der Persönlichkeitsstörung(einige ich-syntone Symptome) überschritten hat. Streitbar, ob ängstlich-vermeident oder schizoid. Da der Begriff borderline fiel … es gibt keine männlichen Borderliner. Das Äquivalent dazu ist klinisch-rein: antisoziale Persönlichkeitsstörung, treffender der politisch inkorrekte Terminus: Psychopathie und Soziopathie.&lt;/p&gt;
+
+&lt;p&gt;Warum sollte man vor mier keine Angst haben?&lt;/p&gt;
+
+&lt;p&gt;All das ist Statistik.
+EIn Mittelwert über tausende Individuen.&lt;/p&gt;
+
+&lt;p&gt;Alles, was gegen Angst spricht, muss also mich im Einzelnen und nicht im Sinne einer Gruppenzugehörigkeit (das wäre auch in Sippenhaft nehmen) betrachten und somit ultimativ die persönliche Beziehung zu mir.&lt;/p&gt;
+
+&lt;p&gt;Gegen Angst spricht nur Vertrauen.
+Und vielleicht noch Glauben.&lt;/p&gt;
+
+&lt;p&gt;Warum solltest du keine Angst vor mir haben?
+WEil Du mir vertraust.&lt;/p&gt;
+
+&lt;p&gt;Und Vertrauen ist weit entfernt von Sicherheit …&lt;/p&gt;
 </content>
  </entry>
  
