@@ -16,7 +16,7 @@
 title: Silvio Schwarz
 email: admin@silvioschwarz.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Geophysics <br> Machine Learning <bt >Psychoanalysis
+    Geophysics <br> Machine Learning <br> Psychoanalysis <br> Nature
 baseurl: / # the subpath of your site, e.g. /blog
 url: http://www.silvioschwarz.com # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: slvschwrz
