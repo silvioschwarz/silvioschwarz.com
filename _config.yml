@@ -45,6 +45,9 @@ psychoBlog:	https://www.silvioschwarz.com/psychoanalythis
 nerostorch:	https://www.silvioschwarz.com/nerostorch
 amethodtomadness:	 https://www.silvioschwarz.com/amethodtomadness
 
+sourcetosite:	https://earthquake-distances.herokuapp.com/
+terremotopi: 	https://silvioschwarz.github.io/TerremotoPi/
+
 
 # Build settings
 markdown: kramdown
@@ -63,6 +66,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 collections:
   authors:

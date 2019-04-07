@@ -3,7 +3,7 @@
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/nerostorch/404/</loc>
+        <loc>http://localhost:4000/nerostorch/404/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -11,7 +11,7 @@
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/selvaggio/404/</loc>
+        <loc>http://localhost:4000/selvaggio/404/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -19,7 +19,7 @@
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/amethodtomadness/404/</loc>
+        <loc>http://localhost:4000/amethodtomadness/404/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -27,7 +27,7 @@
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/psychoanalythis/404/</loc>
+        <loc>http://localhost:4000/psychoanalythis/404/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -35,49 +35,7 @@
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/about/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-  
-  
-      <url>
-        <loc>http://www.silvioschwarz.com/nerostorch/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>http://www.silvioschwarz.com/selvaggio/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>http://www.silvioschwarz.com/amethodtomadness/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>http://www.silvioschwarz.com/psychoanalythis/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>http://www.silvioschwarz.com/</loc>
+        <loc>http://localhost:4000/about/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -86,36 +44,78 @@
   
   
   
+      <url>
+        <loc>http://localhost:4000/nerostorch/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>http://localhost:4000/selvaggio/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>http://localhost:4000/amethodtomadness/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>http://localhost:4000/psychoanalythis/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>http://localhost:4000/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+  
+  
   
   
   
   
       <url>
-        <loc>http://www.silvioschwarz.com/psychoanalythis/2019/04/06/was/</loc>
+        <loc>http://localhost:4000/psychoanalythis/2019/04/06/was/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
   
       <url>
-        <loc>http://www.silvioschwarz.com/selvaggio/2019/04/06/first/</loc>
+        <loc>http://localhost:4000/selvaggio/2019/04/06/first/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
   
       <url>
-        <loc>http://www.silvioschwarz.com/nerostorch/2019/04/06/first/</loc>
+        <loc>http://localhost:4000/nerostorch/2019/04/06/first/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
   
       <url>
-        <loc>http://www.silvioschwarz.com/amethodtomadness/2019/04/06/first/</loc>
+        <loc>http://localhost:4000/amethodtomadness/2019/04/06/first/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
   
       <url>
-        <loc>http://www.silvioschwarz.com/psychoanalythis/2019/03/11/WhyNotAfraid/</loc>
+        <loc>http://localhost:4000/psychoanalythis/2019/03/11/WhyNotAfraid/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
