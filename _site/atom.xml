@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Silvio Schwarz</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2019-04-07T00:13:56+02:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://www.silvioschwarz.com/atom.xml" rel="self"/>
+ <link href="http://www.silvioschwarz.com/"/>
+ <updated>2019-04-07T21:20:01+01:00</updated>
+ <id>http://www.silvioschwarz.com</id>
  <author>
    <name>Silvio Schwarz</name>
    <email></email>
@@ -14,27 +14,27 @@
  
  <entry>
    <title>Was mich zur Zeit echt abnervt!</title>
-   <link href="http://localhost:4000/psychoanalythis/2019/04/06/was/"/>
-   <updated>2019-04-06T12:07:25+02:00</updated>
-   <id>http://localhost:4000/psychoanalythis/2019/04/06/was</id>
+   <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/06/was/"/>
+   <updated>2019-04-06T11:07:25+01:00</updated>
+   <id>http://www.silvioschwarz.com/psychoanalythis/2019/04/06/was</id>
    <content type="html">&lt;p&gt;Ich hasse dies Passivität von Massen!&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>First</title>
-   <link href="http://localhost:4000/selvaggio/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+02:00</updated>
-   <id>http://localhost:4000/selvaggio/2019/04/06/first</id>
+   <link href="http://www.silvioschwarz.com/selvaggio/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+01:00</updated>
+   <id>http://www.silvioschwarz.com/selvaggio/2019/04/06/first</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>First</title>
-   <link href="http://localhost:4000/nerostorch/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+02:00</updated>
-   <id>http://localhost:4000/nerostorch/2019/04/06/first</id>
+   <link href="http://www.silvioschwarz.com/nerostorch/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+01:00</updated>
+   <id>http://www.silvioschwarz.com/nerostorch/2019/04/06/first</id>
    <content type="html">&lt;p&gt;/nerostorch/audio/spechti.mp3&lt;/p&gt;
 
 </content>
@@ -42,18 +42,18 @@
  
  <entry>
    <title>First</title>
-   <link href="http://localhost:4000/amethodtomadness/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+02:00</updated>
-   <id>http://localhost:4000/amethodtomadness/2019/04/06/first</id>
+   <link href="http://www.silvioschwarz.com/amethodtomadness/2019/04/06/first/"/>
+   <updated>2019-04-06T00:00:00+01:00</updated>
+   <id>http://www.silvioschwarz.com/amethodtomadness/2019/04/06/first</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Warum sollte man eigentlich keine Angst vor mir haben?</title>
-   <link href="http://localhost:4000/psychoanalythis/2019/03/11/WhyNotAfraid/"/>
-   <updated>2019-03-11T00:00:00+01:00</updated>
-   <id>http://localhost:4000/psychoanalythis/2019/03/11/WhyNotAfraid</id>
+   <link href="http://www.silvioschwarz.com/psychoanalythis/2019/03/11/WhyNotAfraid/"/>
+   <updated>2019-03-11T00:00:00+00:00</updated>
+   <id>http://www.silvioschwarz.com/psychoanalythis/2019/03/11/WhyNotAfraid</id>
    <content type="html">&lt;h1 id=&quot;warum-sollte-man-eigentlich-keine-angst-vor-mir-haben&quot;&gt;Warum sollte man eigentlich keine Angst vor mir haben?&lt;/h1&gt;
 &lt;p&gt;Ich gehöre zur Spezies homo sapiens.
 Bei allen Maßstäben, die uns heute vorliegen, das erfolgreichste und gefährlichste Raubtier des Planeten Erde, wahrscheinlich unseres Sonnensystems.&lt;/p&gt;

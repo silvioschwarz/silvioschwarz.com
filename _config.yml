@@ -32,21 +32,21 @@ paginate:         5
 # Custom vars
 
 github:		
-  repo:         https://github.com/silvioschwarz
+  repo:         https://github.com/silvioschwarz/
 
-insta:		https://instagram.com/slv.schwrz
-twitter:	https://twitter.com/slvschwrz
-art:		http://instagram.com/amethodtothismadness
-music:		http://instagram.com/neros.torch
+insta:		https://instagram.com/slv.schwrz/
+twitter:	https://twitter.com/slvschwrz/
+art:		http://instagram.com/amethodtothismadness/
+music:		http://instagram.com/neros.torch/
 cv:		https://silvioschwarz.github.io/CV/
-paypal:		https://www.paypal.com/paypalme/silvioschwarz89
-nature:		https://www.silvioschwarz.com/selvaggio
-psychoBlog:	https://www.silvioschwarz.com/psychoanalythis
-nerostorch:	https://www.silvioschwarz.com/nerostorch
-amethodtomadness:	 https://www.silvioschwarz.com/amethodtomadness
+paypal:		https://www.paypal.com/paypalme/silvioschwarz8/9
+nature:		https://www.silvioschwarz.com/selvaggio/
+psychoBlog:	https://www.silvioschwarz.com/psychoanalythis/
+nerostorch:	https://www.silvioschwarz.com/nerostorch/
+amethodtomadness:	 https://www.silvioschwarz.com/amethodtomadness/
 
 sourcetosite:	https://earthquake-distances.herokuapp.com/
-terremotopi: 	https://silvioschwarz.github.io/TerremotoPi/
+terremotopi:	https://silvioschwarz.github.io/TerremotoPi/
 
 
 # Build settings
