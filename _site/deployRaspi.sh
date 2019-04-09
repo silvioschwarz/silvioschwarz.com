@@ -1,6 +1,16 @@
 #! /bin/sh
 #git clone https://github.com/silvioschwarz/silvioschwarz.com.git
-git pull
+
+#echo "pull github repo"
+#git pull
+
+echo "install gems"
 bundle install
+
+echo "deploy"
 bundle exec jekyll build
-sudo cp -r _site/* /var/www/html/
+
+echo "copy to /var/www/html"
+sudo scp -r _site/* pi@silvioschwarz.com:/var/www/html/
+
+echo "DONE!"

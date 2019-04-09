@@ -4,7 +4,7 @@
  <title>Silvio Schwarz</title>
  <link href="http://www.silvioschwarz.com/atom.xml" rel="self"/>
  <link href="http://www.silvioschwarz.com/"/>
- <updated>2019-04-07T21:20:01+01:00</updated>
+ <updated>2019-04-09T06:23:16+02:00</updated>
  <id>http://www.silvioschwarz.com</id>
  <author>
    <name>Silvio Schwarz</name>
@@ -13,9 +13,33 @@
 
  
  <entry>
+   <title>Märtyrermythos</title>
+   <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/09/mrtyrermythos/"/>
+   <updated>2019-04-09T06:04:28+02:00</updated>
+   <id>http://www.silvioschwarz.com/psychoanalythis/2019/04/09/mrtyrermythos</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Recht</title>
+   <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/08/recht/"/>
+   <updated>2019-04-08T08:23:34+02:00</updated>
+   <id>http://www.silvioschwarz.com/psychoanalythis/2019/04/08/recht</id>
+   <content type="html">&lt;p&gt;Jedes Gesetz ist nur soviel wert, wie die Fähigkeit der Betroffenen, Ihre Rechte und Pflichten notfalls bis zum Äußersten wahrzunehmen.&lt;/p&gt;
+
+&lt;p&gt;Beispiel:
+Alle Gesetze zum Mieterschutz nützen nix, wenn Mieter Angst vor Konflikten mit dem Vermieter haben.&lt;/p&gt;
+
+&lt;p&gt;Demokratie muss also Beförderung zur reflektierten und selbstbewussten Realitätsgestaltung sein.
+Schule leistet das momentan nicht. Universität?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Was mich zur Zeit echt abnervt!</title>
    <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/06/was/"/>
-   <updated>2019-04-06T11:07:25+01:00</updated>
+   <updated>2019-04-06T12:07:25+02:00</updated>
    <id>http://www.silvioschwarz.com/psychoanalythis/2019/04/06/was</id>
    <content type="html">&lt;p&gt;Ich hasse dies Passivität von Massen!&lt;/p&gt;
 </content>
@@ -24,7 +48,7 @@
  <entry>
    <title>First</title>
    <link href="http://www.silvioschwarz.com/selvaggio/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+01:00</updated>
+   <updated>2019-04-06T00:00:00+02:00</updated>
    <id>http://www.silvioschwarz.com/selvaggio/2019/04/06/first</id>
    <content type="html">
 </content>
@@ -33,7 +57,7 @@
  <entry>
    <title>First</title>
    <link href="http://www.silvioschwarz.com/nerostorch/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+01:00</updated>
+   <updated>2019-04-06T00:00:00+02:00</updated>
    <id>http://www.silvioschwarz.com/nerostorch/2019/04/06/first</id>
    <content type="html">&lt;p&gt;/nerostorch/audio/spechti.mp3&lt;/p&gt;
 
@@ -43,7 +67,7 @@
  <entry>
    <title>First</title>
    <link href="http://www.silvioschwarz.com/amethodtomadness/2019/04/06/first/"/>
-   <updated>2019-04-06T00:00:00+01:00</updated>
+   <updated>2019-04-06T00:00:00+02:00</updated>
    <id>http://www.silvioschwarz.com/amethodtomadness/2019/04/06/first</id>
    <content type="html">
 </content>
@@ -52,7 +76,7 @@
  <entry>
    <title>Warum sollte man eigentlich keine Angst vor mir haben?</title>
    <link href="http://www.silvioschwarz.com/psychoanalythis/2019/03/11/WhyNotAfraid/"/>
-   <updated>2019-03-11T00:00:00+00:00</updated>
+   <updated>2019-03-11T00:00:00+01:00</updated>
    <id>http://www.silvioschwarz.com/psychoanalythis/2019/03/11/WhyNotAfraid</id>
    <content type="html">&lt;h1 id=&quot;warum-sollte-man-eigentlich-keine-angst-vor-mir-haben&quot;&gt;Warum sollte man eigentlich keine Angst vor mir haben?&lt;/h1&gt;
 &lt;p&gt;Ich gehöre zur Spezies homo sapiens.
