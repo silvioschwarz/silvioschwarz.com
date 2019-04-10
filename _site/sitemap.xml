@@ -99,6 +99,15 @@
   
   
       <url>
+<<<<<<< HEAD
+=======
+        <loc>http://www.silvioschwarz.com/psychoanalythis/2019/04/09/mrtyrermythos/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+      <url>
+>>>>>>> 0bf1f5c79c5350c7d6da1b7a6081eb648e8dc7c1
         <loc>http://www.silvioschwarz.com/psychoanalythis/2019/04/08/recht/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>

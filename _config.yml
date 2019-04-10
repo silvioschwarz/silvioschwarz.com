@@ -34,8 +34,10 @@ paginate:         5
 github:		
   repo:         https://github.com/silvioschwarz/
 
-insta:		https://instagram.com/slv.schwrz/
-twitter:	https://twitter.com/slvschwrz/
+instagram_url:	https://instagram.com/slv.schwrz/
+twitter_url:	https://twitter.com/slvschwrz/
+linkedin_url:	https://linkedin.com/silvioschwarz/
+
 art:		http://instagram.com/amethodtothismadness/
 music:		http://instagram.com/neros.torch/
 cv:		https://silvioschwarz.github.io/CV/
@@ -47,6 +49,8 @@ amethodtomadness:	 http://www.silvioschwarz.com/amethodtomadness/
 
 sourcetosite:	https://earthquake-distances.herokuapp.com/
 terremotopi:	https://silvioschwarz.github.io/TerremotoPi/
+
+
 
 
 # Build settings
@@ -67,26 +71,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
 
 highlighter:      pygments
 
