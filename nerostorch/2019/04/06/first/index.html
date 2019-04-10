@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      First &middot; Silvio Schwarz
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/earthCore.gif">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body class="theme-base-0d">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>
+	<img src="/images/me2.jpg" alt="ME" width=200 height=200>
+        <a href="/">
+          Silvio Schwarz
+        </a>
+      </h1>
+      <p class="lead">Geophysics <br> Machine Learning <br> Psychoanalysis <br> Nature</p>
+    </div>
+	<hr>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
+
+      
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+
+	<a class="sidebar-nav-item" href="https://silvioschwarz.github.io/CV/">CV</a>
+	<a class="sidebar-nav-item" href="https://www.silvioschwarz.com/amethodtomadness/">A Method to Madness</a>
+	<a class="sidebar-nav-item" href="https://www.silvioschwarz.com/nerostorch/">Nero's Torch</a>
+	<a class="sidebar-nav-item" href="https://www.silvioschwarz.com/psychoanalythis/">PsychoAnalysThis!</a>
+	<a class="sidebar-nav-item" href="https://www.silvioschwarz.com/selvaggio/">Selvaggio</a>
+
+	<hr>
+	<p><a class="sidebar-nav-item" href="https://github.com/silvioschwarz/">GitHub project</a></p>
+	<ul>
+	  <li>
+	    <a class="sidebar-nav-item" href="https://earthquake-distances.herokuapp.com/">Earthquake Source to Site metrics</a>
+	  </li>
+	  <li>
+	    <a class="sidebar-nav-item" href="https://silvioschwarz.github.io/TerremotoPi/">TerremotoPi</a>
+	  </li>
+	</ul>
+
+	<a class="sidebar-nav-item" href="https://www.paypal.com/paypalme/silvioschwarz8/9">PaypalMe!</a>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">First</h1>
+  <span class="post-date">06 Apr 2019</span>
+  <p>/nerostorch/audio/spechti.mp3</p>
+
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/psychoanalythis/2019/04/09/mrtyrermythos/">
+            Märtyrermythos
+            <small>09 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/psychoanalythis/2019/04/08/recht/">
+            Recht
+            <small>08 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/psychoanalythis/2019/04/06/was/">
+            Was mich zur Zeit echt abnervt!
+            <small>06 Apr 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+<script src="/public/js/jquery.min.js"></script>
+<style>
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.333%;
+	height: 0;
+    background: black;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    border: 0;
+}    
+</style>
+
+<script>
+function get_youtube_id(url) {
+    var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+    return (url.match(p)) ? RegExp.$1 : false;
+}
+function vimeo_embed(url,el) {
+    var id = false;
+    $.ajax({
+      url: 'https://vimeo.com/api/oembed.json?url='+url,
+      async: true,
+      success: function(response) {
+        if(response.video_id) {
+          id = response.video_id;
+          if(url.indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+          if(url.indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+          var theInnerHTML = '<div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+id+'/?byline=0&title=0&portrait=0';
+          if(autoplay==1) theInnerHTML += '&autoplay=1';
+          if(loop==1) theInnerHTML += '&loop=1';
+          theInnerHTML += '" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'; 
+          el.innerHTML = theInnerHTML;
+        }
+      }
+    });
+}
+function video_embed() {
+    var p = document.getElementsByTagName('p');
+    for(var i = 0; i < p.length; i++) {
+        //check if this is an external url (that starts with https:// or http://
+        if (p[i].innerHTML.indexOf("http://") == 0 ||
+            p[i].innerHTML.indexOf("https://") == 0) {
+            var youtube_id = get_youtube_id(p[i].innerHTML);
+            if(youtube_id) {
+                if(p[i].innerHTML.indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+                if(p[i].innerHTML.indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+                var theInnerHTML = '<div class="videoWrapper"><iframe width="720" height="420" src="https://www.youtube.com/embed/' + youtube_id + '?rel=0&showinfo=0';
+                if(autoplay==1) theInnerHTML += '&autoplay=1';
+                if(loop==1) theInnerHTML += '&loop=1&playlist='+youtube_id+'&version=3';
+                theInnerHTML += '" frameborder="0" allowfullscreen></iframe></div>';
+                p[i].innerHTML = theInnerHTML;
+            }
+            if(p[i].innerHTML.indexOf('vimeo.com') !== -1) {
+                //ask vimeo for the id and place the embed
+                vimeo_embed(p[i].innerHTML,p[i]);
+            }
+        }
+    }
+}
+video_embed();
+
+function mp3_embed() {
+    var p = document.getElementsByTagName('p');
+    for(var i = 0; i < p.length; i++) {
+        if(p[i].innerHTML.indexOf('.mp3') !== -1) {
+            var str = p[i].innerHTML.split('?');
+            if(str.length == 1) str[1] = '';
+            var str1 = str[1];
+            str1 = str1.replace('&','').replace('&','');
+            str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
+            str1 = str1.replace('loop=1','').replace('loop=0','');
+            str1 = str1.replace('controls=0','').replace('controls=1','');
+
+            if (str[0].lastIndexOf('.mp3', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
+                if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+                if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+                if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;
+                var newInnerHTML = '<audio';
+                if(autoplay==1) newInnerHTML += ' autoplay';
+                if(loop==1) newInnerHTML += ' loop';
+                if(controls==1) newInnerHTML += ' controls';
+                newInnerHTML += '><source src="'+str[0]+'" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+                p[i].innerHTML = newInnerHTML;
+            }
+        }
+    }
+}
+mp3_embed();
+</script>
+
+
+    </div>
+<style>
+#follow-buttons {position: fixed; top: 320px; right: -50px; height: 164px;}
+#follow-buttons > div {
+    position: relative;
+    right: 0;
+    -webkit-transition: right 0.2s ease;                  
+    -moz-transition: right 0.2s ease;                 
+    -o-transition: right 0.2s ease;   
+    -ms-transition: right 0.2s ease;          
+    transition: right 0.2s ease;  
+    line-height: 40px; 
+}
+#follow-buttons > div:hover {position: relative; right: 50px;}
+#follow-buttons > div {background: #444; text-align: left; width: 90px; height: 40px; color: white; border-bottom: 1px solid rgba(255,255,255,0.15);}
+#follow-buttons > div > div {background: transparent; font-size: 12px; line-height: 32px; width: 40px; display: inline-block; vertical-align: middle; text-align: center;}
+#follow-buttons > div:first-child {border-top-left-radius: 3px;}
+#follow-buttons > div:last-child {border-bottom: 0; border-bottom-left-radius: 3px;}
+#follow-buttons > div:hover {cursor: pointer;}
+#follow-buttons > div.facebook:hover {background: #3B5998;}
+#follow-buttons > div.twitter:hover {background: #55ACEE;}
+#follow-buttons > div.linkedin:hover {background: #0077b5;}
+#follow-buttons > div.pinterest:hover {background: #CB2027;}
+#follow-buttons > div.gplus:hover {background: #dd4b39;}
+#follow-buttons > div.mail:hover {background: #7D7D7D;}
+#follow-buttons > div.instagram:hover {background: #C73B92;}
+#follow-buttons > div.instagram > div {line-height: 32px;}
+
+#follow-buttons > div svg {height: 20px; fill: #bbb; margin-top: 10px;}
+#follow-buttons > div:hover svg {fill: #fff;}
+#follow-buttons > div.facebook svg {height: 22px; margin-top: 9px;}
+#follow-buttons > div.twitter svg {height: 24px; margin-top: 8px;}
+#follow-buttons > div.linkedin svg {height: 23px; margin-top: 7px;}
+#follow-buttons > div.pinterest svg {height: 24px; margin-top: 9px;}
+#follow-buttons > div.instagram svg {height: 24px; margin-top: 8px;}
+#follow-buttons > div.gplus svg {height: 21px; margin-top: 9px; position: relative; left: 1px;}
+#follow-buttons > div.mail svg {height: 18px; margin-top: 11px;}
+
+@media (max-width: 900px) {
+    #follow-buttons {display: none;}
+}
+</style>
+
+
+<div id="follow-buttons">
+    
+    <div class="twitter" onclick="window.open('https://twitter.com/slvschwrz/');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>Follow</div>
+    <div class="linkedin" onclick="window.open('https://linkedin.com/silvioschwarz/');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>Follow</div>
+    
+    
+    <div class="instagram" onclick="window.open('https://instagram.com/slv.schwrz/');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg></div>Follow</div>
+</div>
+
+  </body>
+</html>
