@@ -4,7 +4,11 @@
  <title>Silvio Schwarz</title>
  <link href="http://www.silvioschwarz.com/atom.xml" rel="self"/>
  <link href="http://www.silvioschwarz.com/"/>
+<<<<<<< HEAD
+ <updated>2019-04-08T08:30:30+02:00</updated>
+=======
  <updated>2019-04-09T06:23:16+02:00</updated>
+>>>>>>> 0bf1f5c79c5350c7d6da1b7a6081eb648e8dc7c1
  <id>http://www.silvioschwarz.com</id>
  <author>
    <name>Silvio Schwarz</name>
@@ -13,6 +17,8 @@
 
  
  <entry>
+<<<<<<< HEAD
+=======
    <title>Märtyrermythos</title>
    <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/09/mrtyrermythos/"/>
    <updated>2019-04-09T06:04:28+02:00</updated>
@@ -22,6 +28,7 @@
  </entry>
  
  <entry>
+>>>>>>> 0bf1f5c79c5350c7d6da1b7a6081eb648e8dc7c1
    <title>Recht</title>
    <link href="http://www.silvioschwarz.com/psychoanalythis/2019/04/08/recht/"/>
    <updated>2019-04-08T08:23:34+02:00</updated>
