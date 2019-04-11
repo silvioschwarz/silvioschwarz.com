@@ -1,7 +1,9 @@
 ---
 layout: post
+author: silvio
 title: "Was mich zur Zeit echt abnervt!"
 date: 2019-04-06T12:07:25+02:00
+category: psychoanalythis
 ---
 
 Ich hasse dies Passivität von Massen!

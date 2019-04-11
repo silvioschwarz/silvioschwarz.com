@@ -2,6 +2,7 @@
 layout: post
 author: silvio
 title: Warum sollte man eigentlich keine Angst vor mir haben?
+category: psychoanalythis
 ---
 
 # Warum sollte man eigentlich keine Angst vor mir haben?

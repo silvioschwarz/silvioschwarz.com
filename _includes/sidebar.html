@@ -32,15 +32,19 @@
 	<a class="sidebar-nav-item" href="{{ site.nerostorch}}">Nero's Torch</a>
 	<a class="sidebar-nav-item" href="{{ site.psychoBlog }}">PsychoAnalysThis!</a>
 	<a class="sidebar-nav-item" href="{{ site.nature }}">Selvaggio</a>
+	
 
 	<hr>
-	<p><a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a></p>
+	<p><a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.seismology }}">Seismology</a></p>
 	<ul>
 	  <li>
 	    <a class="sidebar-nav-item" href="{{ site.sourcetosite }}">Earthquake Source to Site metrics</a>
 	  </li>
 	  <li>
 	    <a class="sidebar-nav-item" href="{{ site.terremotopi }}">TerremotoPi</a>
+	  </li>
+ 	  <li>
+	    <a class="sidebar-nav-item" href="{{ site.liveseimo }}">Real-time Seismogramm demo</a>
 	  </li>
 	</ul>
 

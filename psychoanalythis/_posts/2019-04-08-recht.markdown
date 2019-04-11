@@ -1,7 +1,9 @@
 ---
 layout: post
+author: silvio
 title: "Recht"
 date: 2019-04-08T08:23:34+02:00
+category: psychoanalythis
 ---
 Jedes Gesetz ist nur soviel wert, wie die Fähigkeit der Betroffenen, Ihre Rechte und Pflichten notfalls bis zum Äußersten wahrzunehmen.
 
