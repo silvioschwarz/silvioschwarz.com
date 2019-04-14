@@ -3,7 +3,8 @@ layout: default
 title: PsychoanalyThis!
 category: psychoanalythis
 ---
-{% raw %}
+
+<h2 class="title">{{ page.title}}</h2>
 {% for post in site.posts %}
   {% if post.categories contains 'psychoanalythis' %}
 	<div class="post">
@@ -15,5 +16,5 @@ category: psychoanalythis
 	</div>
   {% endif %}
 {% endfor %}
-{% endraw %}
+
 
