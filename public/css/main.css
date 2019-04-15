@@ -1,10 +1,9 @@
 hr { margin: 0.1em auto; }
-
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "me heart" "me core";
+  grid-template-areas: "me me heart" "me me core";
 }
 
 .me { grid-area: me; }
