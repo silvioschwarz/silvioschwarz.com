@@ -3,6 +3,6 @@
 git pull
 bundle install
 bundle exec jekyll build
-#sudo cp -r website/* /var/www/html/
+#sudo cp -r _site/* /var/www/html/
 
-rsync -azP --delete _site/* /var/www/html/
+sudo rsync -azP --delete _site/* /var/www/html/
