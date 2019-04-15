@@ -1,0 +1,8 @@
+---
+layout: post
+author: Silvio Schwarz
+title: "Credo"
+date: 2019-04-15T16:47:26+02:00
+category: psychoanalythis
+---
+

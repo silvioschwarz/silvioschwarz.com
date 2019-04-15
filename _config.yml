@@ -47,6 +47,7 @@ nature:		http://www.silvioschwarz.com/selvaggio/
 psychoBlog:	http://www.silvioschwarz.com/psychoanalythis/
 nerostorch:	http://www.silvioschwarz.com/nerostorch/
 amethodtomadness:	 http://www.silvioschwarz.com/amethodtomadness/
+meaningfromexperience:	 http://www.silvioschwarz.com/meaningfromexperience/
 
 sourcetosite:	http://www.silvioschwarz.com/seismology/eqs2s/
 terremotopi:	https://silvioschwarz.github.io/TerremotoPi/
@@ -63,17 +64,47 @@ plugins:
   - jekyll-feed
   - jemoji
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Silvio Schwarz"
+  -
+    scope:
+      path: "amethodtomadness"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      category: amethodtomadness
+  -
+    scope:
+      path: "nerostorch"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      category: nerostorch
+  -
+    scope:
+      path: "meaningfromexperience"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      category: meaningfromexperience
+  -
+    scope:
+      path: "psychoanalythis"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      category: psychoanalythis
+  -
+    scope:
+      path: "selvaggio"
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      category: selvaggio
+
+
 
 
 highlighter:      pygments

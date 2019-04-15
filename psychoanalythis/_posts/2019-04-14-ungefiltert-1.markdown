@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Silvio Schwarz
 title: "Ungefiltert #1"
 date: 2019-04-14T22:21:03+02:00
 category: psychoanalythis

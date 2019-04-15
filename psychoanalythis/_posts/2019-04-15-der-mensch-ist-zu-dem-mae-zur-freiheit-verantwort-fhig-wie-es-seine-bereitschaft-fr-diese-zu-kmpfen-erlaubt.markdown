@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Silvio SChwarz
 title: "Der Mensch Ist In Dem Maße Zur Freiheit/Verantwortung Fähig, wie Es Seine Bereitschaft, Für Diese Zu Kämpfen, Erlaubt"
 date: 2019-04-15T07:54:01+02:00
 category: psychoanalythis

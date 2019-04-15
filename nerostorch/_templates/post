@@ -1,5 +1,7 @@
 ---
 layout: {{ layout }}
+author: {{ author }}
 title: "{{ title }}"
 date: {{ date }}
+category: {{ page.category }}
 ---
