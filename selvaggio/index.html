@@ -3,7 +3,8 @@ layout: default
 title: Selvaggio!
 category: selvaggio
 ---
-{% raw %}
+
+<h2 class="title">{{ page.title}}</h2>
 {% for post in site.posts %}
   {% if post.categories contains 'selvaggio' %}
 	<div class="post">
@@ -15,5 +16,5 @@ category: selvaggio
 	</div>
   {% endif %}
 {% endfor %}
-{% endraw %}
+
 
