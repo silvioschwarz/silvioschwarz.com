@@ -44,7 +44,7 @@ Ich denke, jedes Gesetz ist nur soviel wert, wie Menschen die Möglichkeit in An
 
 Mietpreisbremse?
 Nützt 0
-
+https://www.youtube.com/watch?v=AHA2RJvSr_Y&feature=youtu.be&t=6095
 Nada
 
 Zero
@@ -55,6 +55,7 @@ Dieselskandal?
 Warum haben wir keine 2,8 Mio. Klagen gegen VW und Co.?
 Warum können die jetzt noch ein zweites mal durch "Rabattangebote, wenn sie ihren alten (vor 2 Jahre gekauften) Diesel für einen Neuwagen tauschen" an ihrem Betrug sich ne goldene Nase verdienen?
 https://twitter.com/slvschwrz/status/1111533827367858176
+[Klagen hilft!](https://www.youtube.com/watch?v=AHA2RJvSr_Y&feature=youtu.be&t=6095 "Klagen hilft").
 
 Was ist eigentlich das "Wahlalter" für Klagen?
 
