@@ -1,20 +1,14 @@
 hr { margin: 0.1em auto; }
 
-.grid-container {
+.lt-grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "\31  \32  . ." "\31  \33  . ." ". . . .";
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
+.lt-1 { grid-area: lt-1; }
 
-.item1 {
-  grid-row: 1 / span 2;
-}
+.lt-2 { grid-area: lt-2; }
+
+.lt-3 { grid-area: lt-3; }

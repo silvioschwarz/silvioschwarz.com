@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Silvio Schwarz
 title: "Practical Psychotherapy"
 date: 2019-04-14T22:17:17+02:00
 category: psychoanalythis
