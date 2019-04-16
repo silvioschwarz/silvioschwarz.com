@@ -1,14 +1,13 @@
 hr { margin: 0.1em auto; }
-
-.lt-grid-container {
+.grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "\31  \32  . ." "\31  \33  . ." ". . . .";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "me me heart" "me me core";
 }
 
-.lt-1 { grid-area: lt-1; }
+.me { grid-area: me; }
 
-.lt-2 { grid-area: lt-2; }
+.heart { grid-area: heart; }
 
-.lt-3 { grid-area: lt-3; }
+.core { grid-area: core; }
